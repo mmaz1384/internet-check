@@ -3,10 +3,10 @@
 while true; do
   if ping -c 1 8.8.8.8; then
     echo -e "\a"
-    echo "اینترنت وصل شد!"
+    echo "Internet connected!"
     break
   else
-    echo "در حال بررسی اتصال به اینترنت..."
+    echo "Checking internet connection..."
   fi
   sleep 5
 done
